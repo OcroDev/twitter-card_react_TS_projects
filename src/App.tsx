@@ -15,13 +15,13 @@ const users: user[] = [
     isFollowing: false
   },
   {
-    userName: 'baumannzone',
+    userName: 'chicacode',
     name: 'Geri Hernández',
     isFollowing: false
   },
   {
     userName: 'midudev',
-    name: 'Miguel Ángel Durán',
+    name: 'Miguelangel Durán',
     isFollowing: false
   }
 ]
@@ -42,9 +42,11 @@ export const App = (): JSX.Element => {
           </TwitterFollowCard>
         ))
         }
-        <div>
-          <a href="">show more...</a>
+          <a className='show-more' href="">
+        <div >
+            Show more...
         </div>
+          </a>
     </section>
       <Footer />
   </>

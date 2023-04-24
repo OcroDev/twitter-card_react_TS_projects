@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import { URL_IO_PROFILE, URL_SOCIAL_PROFILE } from './utils/urls'
 interface Props {
   userName: string
   initialIsFollowing: boolean
@@ -22,10 +23,10 @@ export const TwitterFollowCard: React.FC<Props> = ({ userName, initialIsFollowin
         <header className='tw-followCard-header'>
           <img
             className='tw-followCard-avatar'
-            src={`https://unavatar.io/twitter/${userName}`}
+            src={`${URL_IO_PROFILE.github}${userName}`}
             alt={`${userName} user avatar image`} />
           <div className='tw-followCard-info'>
-            <strong><a href='#'>{children}</a></strong>
+            <strong><a href={`${URL_SOCIAL_PROFILE.twitter}${userName}`}>{children}</a></strong>
             <span className='tw-followCard-infoUserName'> @{userName}</span>
           </div>
         </header>

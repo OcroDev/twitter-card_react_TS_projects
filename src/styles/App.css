@@ -4,16 +4,13 @@
   color: #fff;
   font-size: .8rem;
   justify-content: space-between;
-  background-color: #3e4144;
+  background-color: #16181c;
   padding: 1em;
   transition: background-color .2s ease-in-out;
-  
 }
 
 .tw-followCard:hover{
-  background-color: #5858585d;
-  
-  
+  background-color: #1d1f23;  
 }
 
 .tw-followCard-header {
@@ -31,7 +28,6 @@
   color: #fff;
   text-decoration: none;
   transition: text-decoration .5s ease-in-out;
-  
 }
 
 .tw-followCard-info a:hover {
@@ -93,4 +89,3 @@
 .tw-followCard-stopFollow {
   display: none;
 }
-

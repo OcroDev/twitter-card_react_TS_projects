@@ -14,12 +14,29 @@ body {
   border: 0px solid;
   border-radius: 10px ;
   border-color:#000;
-  background-color: #3e4144;
+  background-color: #16181c;
   padding-top: .5em;
   
 }
 
 .App h1 {
   padding-left: .5em;
+}
+
+
+.show-more{
+  display: flex;
+  padding: 1em;
+  color: #4485ff;
+  font-weight: normal;
+  text-decoration: none;
+  border-radius: 0px 0px 10px 10px;
+  flex-basis: auto;
+  transition: background-color .3s ease-in-out;
+}
+
+.show-more:hover{
+  background-color: #1d1f23;
+  
 }
 
