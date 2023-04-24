@@ -1,7 +1,7 @@
 body {
   margin: 0;
-  background: #111;
-  font-family: system-ui;
+  background: #000;
+  font-family: "TwitterChirp",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif,system-ui;
   display: grid;
   place-content: center;
   min-height: 100vh;
@@ -10,7 +10,6 @@ body {
 .App {
   display: flex;
   flex-direction: column;
-  /* gap: 12px; */
   border: 0px solid;
   border-radius: 10px ;
   border-color:#000;
@@ -33,6 +32,7 @@ body {
   border-radius: 0px 0px 10px 10px;
   flex-basis: auto;
   transition: background-color .3s ease-in-out;
+  font-size: 14px ;
 }
 
 .show-more:hover{

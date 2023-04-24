@@ -44,7 +44,7 @@ export const App = (): JSX.Element => {
         }
           <a className='show-more' href="">
         <div >
-            Show more...
+            Show more
         </div>
           </a>
     </section>
