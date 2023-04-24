@@ -10,10 +10,16 @@ body {
 .App {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  /* gap: 12px; */
   border: 0px solid;
   border-radius: 10px ;
   border-color:#000;
+  background-color: #3e4144;
+  padding-top: .5em;
   
-  /* padding: 3px; */
 }
+
+.App h1 {
+  padding-left: .5em;
+}
+

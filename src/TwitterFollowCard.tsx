@@ -24,8 +24,8 @@ export const TwitterFollowCard: React.FC<Props> = ({ userName, initialIsFollowin
             className='tw-followCard-avatar'
             src={`https://unavatar.io/twitter/${userName}`}
             alt={`${userName} user avatar image`} />
-          <div className='tw-followCard-header-info'>
-            <strong>{children}</strong>
+          <div className='tw-followCard-info'>
+            <strong><a href='#'>{children}</a></strong>
             <span className='tw-followCard-infoUserName'> @{userName}</span>
           </div>
         </header>

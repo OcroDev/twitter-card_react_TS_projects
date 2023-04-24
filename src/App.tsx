@@ -1,4 +1,5 @@
-import './App.css'
+import { Footer } from './components/Footer'
+import './styles/App.css'
 import { TwitterFollowCard } from './TwitterFollowCard'
 import { type user } from './type'
 
@@ -27,6 +28,7 @@ const users: user[] = [
 
 export const App = (): JSX.Element => {
   return (
+  <>
     <section className='App'>
       <h1 style={{ color: 'white' }}>Who to follow</h1>
       {
@@ -39,7 +41,12 @@ export const App = (): JSX.Element => {
             {name}
           </TwitterFollowCard>
         ))
-      }
+        }
+        <div>
+          <a href="">show more...</a>
+        </div>
     </section>
+      <Footer />
+  </>
   )
 }

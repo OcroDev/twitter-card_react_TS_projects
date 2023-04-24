@@ -4,7 +4,7 @@
   color: #fff;
   font-size: .8rem;
   justify-content: space-between;
-  background-color: rgb(62, 65, 68);
+  background-color: #3e4144;
   padding: 1em;
   transition: background-color .2s ease-in-out;
   
@@ -25,6 +25,17 @@
 .tw-followCard-info {
   display: flex;
   flex-direction: column;
+}
+
+.tw-followCard-info a {
+  color: #fff;
+  text-decoration: none;
+  transition: text-decoration .5s ease-in-out;
+  
+}
+
+.tw-followCard-info a:hover {
+  text-decoration: underline;
 }
 
 .tw-followCard-infoUserName {
