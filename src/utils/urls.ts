@@ -1,7 +1,7 @@
 export const URL_IO_PROFILE = {
-  twitter: 'https://avatar.io/twitter/',
+  twitter: 'https://unavatar.io/twitter/',
   github: 'https://unavatar.io/github/',
-  instagram: 'https://avatar.io/instagram/'
+  instagram: 'https://unavatar.io/instagram/'
 }
 
 export const URL_SOCIAL_PROFILE = {
