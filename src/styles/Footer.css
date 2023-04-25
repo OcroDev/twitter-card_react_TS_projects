@@ -17,6 +17,11 @@
   scale: 1.05;
 }
 
+img {
+  width: 1em;
+  height: 1em;
+}
+
 .footer span,
 a {
   font-size: 0.9rem;
@@ -33,6 +38,7 @@ a {
 .footer a:hover {
   color: #ff6f82;
   transition: color 0.2s ease-in-out;
+  text-decoration: underline;
 }
 
 .footer h4,
